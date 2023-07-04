@@ -1,0 +1,120 @@
+<div style="background-image: url('https://cdn.pixabay.com/photo/2016/11/29/11/15/fruits-1869132_1280.jpg');">
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h3>Agregar Plato Saludable</h3>
+    </div>
+    <div class="card-body">
+      <table class="table table-hover">
+        <thead>
+          <tr class="text-center">
+            <th>ID</th>
+            <th>Plato saludable</th>
+            <th>Calorias del Plato</th>
+            <th>ACCIONES</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let persona of personas" class="text-center">
+            <td>{{persona.id}}</td>
+            <td>{{persona.drugName}}</td>
+            <td>{{persona.stock}}</td>
+            <td>
+              <button (click)="Editar(persona)" class="btn btn-warning">Editar</button>
+              <button (click)="Delete(persona)" class="btn btn-danger" style="margin-left: 10px;">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <!-- The four columns -->
+
+
+
+
+    </div>
+  </div>
+</div>
+
+<div class="container" style="width: 700px;">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2020/01/jugos-saludables.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://icontinental.edu.pe/wp-content/uploads/2022/12/jugos_para-desintoxicacion.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://cdn.pixabay.com/photo/2017/05/11/19/44/fresh-fruits-2305192_1280.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://cdn.pixabay.com/photo/2018/09/23/09/31/smoothie-3697014_1280.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://cdn.pixabay.com/photo/2017/03/23/19/57/asparagus-2169305_1280.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://cdn.pixabay.com/photo/2016/09/12/08/22/breakfast-1663295_1280.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2020/01/jugos-saludables.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://icontinental.edu.pe/wp-content/uploads/2022/12/jugos_para-desintoxicacion.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.pixabay.com/photo/2017/05/11/19/44/fresh-fruits-2305192_1280.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.pixabay.com/photo/2018/09/23/09/31/smoothie-3697014_1280.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.pixabay.com/photo/2017/03/23/19/57/asparagus-2169305_1280.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.pixabay.com/photo/2016/09/12/08/22/breakfast-1663295_1280.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>

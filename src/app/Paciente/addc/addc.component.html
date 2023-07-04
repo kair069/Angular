@@ -1,0 +1,40 @@
+<div class="container col-md-6">
+  <div class="card">
+    <div class="card-header">
+      <h3>Agregar Pacientes</h3>
+    </div>
+    <div class="card-body">
+      <form action="">
+        <div class="form-group">
+          <label for="">nombre</label>
+          <input [(ngModel)]="persona.name" name="name" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Edad:</label>
+          <input [(ngModel)]="persona.age" name="apellidos" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Peso:</label>
+          <input [(ngModel)]="persona.blood" name="apellidos" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Descripcion Nutricional:</label>
+          <input [(ngModel)]="persona.prescription" name="apellidos" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Tipo de Sangre:</label>
+          <input [(ngModel)]="persona.dose" name="apellidos" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Descripcion Sintomatologica:</label>
+          <input [(ngModel)]="persona.fees" name="apellidos" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Urgencia:</label>
+          <input [(ngModel)]="persona.urgency" name="apellidos" type="text" class="form-control">
+        </div>
+        <button (click)="Guardar()" class="btn btn-danger">Guardar</button>
+      </form>
+    </div>
+  </div>
+</div>

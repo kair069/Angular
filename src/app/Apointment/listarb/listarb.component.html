@@ -1,0 +1,131 @@
+<div style="background-image: url('https://cdn.pixabay.com/photo/2016/07/21/11/17/drink-1532300_1280.jpg');">
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h3>Jugos Saludables</h3>
+    </div>
+    <div class="card-body">
+      <table class="table table-hover">
+        <thead>
+          <tr class="text-center">
+            <th>ID</th>
+            <th>Nombre de Jugo Saludable</th>
+            <th>Vitaminas</th>
+            <th>Beneficios</th>
+            <th>Descripcion</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let persona of personas" class="text-center">
+            <td>{{persona.id}}</td>
+            <td>{{persona.name}}</td>
+            <td>{{persona.age}}</td>
+            <td>{{persona.symptoms}}</td>
+            <td>{{persona.number}}</td>
+            <td>
+              <button (click)="Editar(persona)" class="btn btn-warning">Editar</button>
+              <button (click)="Delete(persona)" class="btn btn-danger" style="margin-left: 10px;">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="width: 700px;">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://cdn7.kiwilimon.com/recetaimagen/30632/960x640/34260.jpg.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://nutricionysaludintegral.com.mx/wp-content/uploads/2016/10/jugos-1-1240x824.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://mejorconsalud.as.com/wp-content/uploads/2015/01/jugos-naturales-celulitis.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://cdn.colombia.com/sdi/2019/04/21/jugos-naturales-para-vencer-el-cansancio-729735.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://organicosysaludables.com/wp-content/uploads/2018/03/jugos-nutritivos.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://statics.mexicoshow.mx/2023/03/crop/6405fefe81481__680x510.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://cdn7.kiwilimon.com/recetaimagen/30632/960x640/34260.jpg.jpg"
+        style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://nutricionysaludintegral.com.mx/wp-content/uploads/2016/10/jugos-1-1240x824.jpg"
+        style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://mejorconsalud.as.com/wp-content/uploads/2015/01/jugos-naturales-celulitis.jpg"
+        style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.colombia.com/sdi/2019/04/21/jugos-naturales-para-vencer-el-cansancio-729735.jpg"
+        style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://organicosysaludables.com/wp-content/uploads/2018/03/jugos-nutritivos.jpg"
+        style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://statics.mexicoshow.mx/2023/03/crop/6405fefe81481__680x510.webp"
+        style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>

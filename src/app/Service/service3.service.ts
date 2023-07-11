@@ -9,7 +9,7 @@ export class Service3Service {
 
   constructor(private http:HttpClient) { }
 
-  Url='http://localhost:8080/api/v1/patients';
+  Url='https://pacientessaludab.azurewebsites.net/api/v1/patients';
 
   getPersonas(){
     return this.http.get<Paciente[]>(this.Url);
